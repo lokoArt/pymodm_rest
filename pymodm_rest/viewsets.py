@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ViewSetMixin
 
-from api.pymodm_rest import mixins, generics
+from pymodm_rest import mixins, generics
 
 
 class GenericViewSet(ViewSetMixin, generics.GenericAPIView):

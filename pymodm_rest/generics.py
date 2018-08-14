@@ -6,8 +6,8 @@ from bson import ObjectId
 from pymodm.queryset import QuerySet
 from rest_framework.views import APIView
 
-from api.pymodm_rest import mixins
-from api.pymodm_rest.utils import get_object_or_404
+from pymodm_rest import mixins
+from pymodm_rest.utils import get_object_or_404
 
 
 class GenericAPIView(APIView):
