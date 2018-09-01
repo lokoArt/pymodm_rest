@@ -1,5 +1,5 @@
 ## Description
-This package is inspired by Django REST Framework in order to provide a simple creation of CRUD REST API.
+This package is inspired by Django REST Framework in order to provide a simple creation of CRUD REST API for Mongodb applications.
 
 Some features are not implemented such as pagination and advanced serializing.
 If you have any ideas how to improve this package feel free to contact me or even help me.
